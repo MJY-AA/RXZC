@@ -1,0 +1,92 @@
+
+
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为80
+  port: 8082
+  servlet:
+    # 应用的访问路径
+    context-path: /
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    # tomcat最大线程数，默认为200
+    max-threads: 800
+    # Tomcat启动初始化的线程数，默认值25
+    min-spare-threads: 30
+
+
+logging:
+  config: classpath:logback-spring.xml
+#  level: trace
+
+mybatis:
+#
+  mapper-locations: classpath:mapper/*Mapper.xml
+  #
+  type-aliases-package: com.rxzc.entity
+  #
+#  configLocation: classpath:mybatis/mybatis-config.xml
+  configuration:
+   map-underscore-to-camel-case: true
+
+# PageHelper
+#pagehelper:
+#  helper-dialect: mysql
+#  auto-dialect: true
+#  page-size-zero: false
+#  reasonable: true
+#  offset-as-page-num: false
+#  row-bounds-with-count: false
+#  auto-runtime-dialect: false
+#  close-conn: true
+#  default-count: false
+#  dialect-alias: oracle=com.github.pagehelper.dialect.helper.OracleDialect
+spring:
+  #  =================数据库以及连接池==============
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      # MySQL 8.x: com.mysql.cj.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/schoolleg?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+      max-active: 30
+      min-idle: 5
+      validation-query: SELECT 1 FROM DUAL
+      max-wait: 10000
+      min-evictable-idle-time-millis: 30000
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      filters: stat,wall,log4j2
+      connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+      web-stat-filter:
+        enabled: true
+        url-pattern: "/*"
+        exclusions: "*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*"
+      stat-view-servlet:
+        url-pattern: "/druid/*"
+        allow: #如果allow没有配置或者为空，则允许所有访问
+        reset-enable: false
+        login-username: admin
+        login-password: admin
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    jedis:
+      pool:
+        #最大链接数
+        max-active: 8
+        #最大阻塞时间
+        #max-wait: 2ms
+        max-idle: 8
+        min-idle: 0
+    timeout: 7200ms
+    lettuce:
+      shutdown-timeout: 3000ms

@@ -1,0 +1,10 @@
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      field-strategy: not_empty
+      table-underline: true
+      db-type: mysql
+      logic-delete-value: 1 # �߼���ɾ��ֵ(Ĭ��Ϊ 1)
+      logic-not-delete-value: 0 # �߼�δɾ��ֵ(Ĭ��Ϊ 0)
+  mapper-locations: classpath:/mapper/*.xml

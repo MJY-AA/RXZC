@@ -1,0 +1,11 @@
+
+Nsquid:S1481"2Remove this unused "tableFillList" local variable.(ãµÉº8Œœ¡·ô.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è¬õÚ˝ˇˇˇˇ8Œœ¡·ô.
+Ssquid:S1135"2Complete the task associated to this TODO comment.(‚¿á¸˛ˇˇˇˇ8Œœ¡·ô.
+Nsquid:S1135"2Complete the task associated to this TODO comment.(§Åîœ8Œœ¡·ô.
+_squid:CallToDeprecatedMethod"2Remove this use of "isNotEmpty"; it is deprecated.(í≈Ö 8Œœ¡·ô.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¯∑Á◊˚ˇˇˇˇ8Œœ¡·ô.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïá‚»˛ˇˇˇˇ8Œœ¡·ô.
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ØôÖº8Œœ¡·ô.
+|squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É®î‘˙ˇˇˇˇ8Œœ¡·ô.
+Ssquid:S1135"2Complete the task associated to this TODO comment.(‘⁄Ê¥˙ˇˇˇˇ8Œœ¡·ô.
