@@ -1,0 +1,7 @@
+
+Lsquid:S1197"8Move the array designator from the variable to the type.(δ³ό}
+tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(± 
+Osquid:S1118":Add a private constructor to hide the implicit public one.(―Ò§μ
+[squid:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(Η―ιβ
+Ysquid:S2259"DA "NullPointerException" could be thrown; "toHex()" can return null.(Ϊυ£µ
+;squid:S1168"&Return an empty array instead of null.(¥Ήο

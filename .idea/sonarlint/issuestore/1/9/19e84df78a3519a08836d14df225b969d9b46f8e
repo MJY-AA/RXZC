@@ -1,0 +1,23 @@
+
+W"squid:SwitchLastCaseIsDefaultCheckO""Add a default case to this switch.(è¦­‚8¬ç†š.
+ksquid:S1192"HDefine a constant instead of duplicating this literal "unknown" 6 times.(ğÁÂìıÿÿÿÿ8¬ç†š.
+Esquid:S1168ˆ"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Esquid:S1168›"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Esquid:S1168"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+msquid:S22591"J"NullPointerException" will be thrown when invoking method "internalIp()".(¹·Ø‰ûÿÿÿÿ8¬ç†š.
+Dsquid:S1168~"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Esquid:S1168–"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Nsquid:S00108¬")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8¬ç†š.
+n
+squid:S128I"LEnd this switch case with an unconditional break, return or throw statement.(Ú²Âåşÿÿÿÿ8¬ç†š.
+Nsquid:S00108¸")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8¬ç†š.
+]squid:S1118":Add a private constructor to hide the implicit public one.(¿Şèåúÿÿÿÿ8¬ç†š.
+psquid:S3776_"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(‹²”Ü8¬ç†š.
+Dsquid:S1168z"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Esquid:S1168 "&Return an empty array instead of null.(¥¹ï8¬ç†š.
+msquid:S1192+"JDefine a constant instead of duplicating this literal "127.0.0.1" 3 times.(•ƒÔÁÿÿÿÿÿ8¬ç†š.
+i
+squid:S128N"LEnd this switch case with an unconditional break, return or throw statement.(ØŸš8¬ç†š.
+isquid:S1301O"KReplace this "switch" statement by "if" statements to increase readability.(è¦­‚8¬ç†š.
+Dsquid:S1168c"&Return an empty array instead of null.(¥¹ï8¬ç†š.
+Dsquid:S1168q"&Return an empty array instead of null.(¥¹ï8¬ç†š.

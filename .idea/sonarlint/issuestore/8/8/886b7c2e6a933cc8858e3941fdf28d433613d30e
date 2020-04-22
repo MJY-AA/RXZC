@@ -1,0 +1,7 @@
+
+dsquid:S3027/"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(„ò¢Ô8ã”„‡š.
+dsquid:S3027K"FPut single-quotes around '.' to use the faster "indexOf(char)" method.(„ò¢Ô8ã”„‡š.
+Dsquid:S1452"&Remove usage of generic wildcard type.(š¾ƒÔ8ã”„‡š.
+Dsquid:S1452"&Remove usage of generic wildcard type.(š¾ƒÔ8ã”„‡š.
+Nsquid:S1905"0Remove this unnecessary cast to "LinkedHashMap".(Œâø8ã”„‡š.
+]squid:S1118":Add a private constructor to hide the implicit public one.(Ô«‡úÿÿÿÿ8ã”„‡š.

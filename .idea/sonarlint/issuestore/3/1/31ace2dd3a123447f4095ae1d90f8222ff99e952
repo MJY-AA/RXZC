@@ -1,0 +1,4 @@
+
+csquid:S3027p"FPut single-quotes around '%' to use the faster "indexOf(char)" method.(“–™08­›Ü†š.
+Dsquid:S1659l"!Declare "pos" on a separate line.(£Ÿ˜Òÿÿÿÿÿ8­›Ü†š.
+^squid:CallToDeprecatedMethodf"/Remove this use of "isEmpty"; it is deprecated.(œù³Œ8­›Ü†š.

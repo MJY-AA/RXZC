@@ -1,0 +1,9 @@
+
+nsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(é‰ô«üÿÿÿÿ8‡¨²‰š.
+ysquid:S2068>"V'password' detected in this expression, review this potentially hard-coded credential.(¦ÞÐÉüÿÿÿÿ8‡¨²‰š.
+ssquid:S00100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¬ýÝùÿÿÿÿ8‡¨²‰š.
+¶%squid:RedundantThrowsDeclarationCheck-"yRemove the declaration of thrown exception 'org.apache.shiro.authc.AuthenticationException' which is a runtime exception.(¡ïË»ùÿÿÿÿ8‡¨²‰š.
+>squid:S2129D" Remove this "String" constructor(ýô±Ì8‡¨²‰š.
+nsquid:CommentedOutCodeLinen"<This block of commented-out lines of code should be removed.(½¤Þôüÿÿÿÿ8‡¨²‰š.
+tsquid:S2068A"Q'Pwd' detected in this expression, review this potentially hard-coded credential.(­ â¢úÿÿÿÿ8‡¨²‰š.
+Psquid:S1481R"-Remove this unused "username" local variable.(ÿ¾¤¨þÿÿÿÿ8‡¨²‰š.

@@ -1,0 +1,10 @@
+
+Á%squid:RedundantThrowsDeclarationCheckb"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(™úãİüÿÿÿÿ
+Á%squid:RedundantThrowsDeclarationCheckJ"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(åì×Æøÿÿÿÿ
+Á%squid:RedundantThrowsDeclarationCheckU"ŠRemove the declaration of thrown exception 'org.springframework.beans.factory.NoSuchBeanDefinitionException' which is a runtime exception.(ı¾ÍÀıÿÿÿÿ
+@squid:S19053"$Remove this unnecessary cast to "T".(ô§­éûÿÿÿÿ
+Esquid:S1172n".Remove this unused method parameter "invoker".(¢ÈÎ
+©%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(´Çİùÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheck1"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.( ßëñ
+¤%squid:RedundantThrowsDeclarationCheck$"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(é»ä¥
+Msquid:S2696"6Make the enclosing method "static" or remove this set.(²öÁ³
